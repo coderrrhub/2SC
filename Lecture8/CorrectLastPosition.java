@@ -1,6 +1,6 @@
-package Lecture6;
+package Lecture8;
 
-public class Sorting {
+public class CorrectLastPosition {
     public static void main(String[] args) {
         int[] arr = {1,4,7,9,12,46,5};
         int len = arr.length;
@@ -17,5 +17,6 @@ public class Sorting {
         }
 
         // ith data smaller or i = -1
+        arr[i+1] = temp;
     }
 }
